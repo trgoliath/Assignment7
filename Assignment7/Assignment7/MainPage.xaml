@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment7.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Blue"   Padding="24" CornerRadius="0">
+            <Label Text="Facebook" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+            <Grid>
+                <!--CREATE TABLE -->
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="80" />
+                    <RowDefinition />
+                    <RowDefinition  />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <!--Row 0 column 0 -->
+            <BoxView Grid.Column="0"
+                      Color="CornflowerBlue" />
+            <ImageButton Grid.Column="0"
+                    BackgroundColor="CornflowerBlue"
+                   Source="Home_.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+
+            <!--Row 0 column 1 -->
+
+            <BoxView Grid.Column="1"
+                        Color="CornflowerBlue"/>
+            <ImageButton Grid.Column="1"
+                    BackgroundColor="CornflowerBlue"
+                   Source ="group.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <!--Row 0 column 2 -->
+
+            <BoxView Grid.Column="2"
+                        Color="CornflowerBlue"/>
+            <ImageButton Grid.Column="2"
+                    BackgroundColor="CornflowerBlue"
+                   Source="news.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+
+
+            <!--Row 0 column 3 -->
+
+            <BoxView Grid.Column="3"
+                        Color="CornflowerBlue"/>
+            <ImageButton Grid.Column="3"
+                    BackgroundColor="CornflowerBlue"
+                   Source="notifications.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <!--Row 0 column 4 -->
+
+             <BoxView Grid.Column="4"
+                        Color="CornflowerBlue"/>
+            <ImageButton Grid.Column="4"
+                    BackgroundColor="CornflowerBlue"
+                   Source="messages.jpeg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+              
+            <!--Row 0 column 5 -->
+
+            <BoxView Grid.Column="5"
+                        Color="CornflowerBlue"/>
+            <ImageButton Grid.Column="5"
+                    BackgroundColor="CornflowerBlue"
+                   Source="search.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+                
+            <!--Row 0 column 6 -->
+
+            <BoxView Grid.Column="6"
+                        Color="CornflowerBlue"/>
+            <ImageButton Grid.Column="6"
+                    BackgroundColor="CornflowerBlue"
+                   Source="options.gif"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+        </Grid>
+
+        <Label Text="Tegwen" FontAttributes="Bold" FontSize="36"/>
+        <Image Source="Home_.png" />
+       
+
+                <Button Text="Shaqeel" />
+        <Button Text="tyrese" />
+        <Button Text="Tegwen" />
+    </StackLayout>
+        
+</ContentPage>
+
+        
+        
+
+
